@@ -108,3 +108,4 @@ CUDA_VISIBLE_DEVICES=2 python3 fine-tuning/run_classifier.py --vocab_path models
                                    --encoder transformer --mask fully_visible \
                                    --seq_length 320 --learning_rate 6e-5
 ```
+Note: this code is based on [ET_BERT](https://github.com/linwhitehat/ET-BERT) and [UER-py](https://github.com/dbiir/UER-py). Many thanks to the authors.
